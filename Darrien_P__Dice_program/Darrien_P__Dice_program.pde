@@ -12,3 +12,6 @@ fill(255);
 rect(250,220,250,220);
 
 //random numbers
+fill(random(10,255),random(10,255),random(10,255));
+textSize(random(30,100));
+text(words[int(random(6))],width/2,height/2);
